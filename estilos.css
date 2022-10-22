@@ -1,0 +1,126 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+		/*box-sizing: border-box;*/
+	box-sizing: border-box;
+	/* overflow-y: scroll !important; */
+	}
+
+body{
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 23px;
+}
+
+.subtitulo{
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px !important;
+    /* height: auto-fill; */
+    padding: 10px;
+}
+
+.container1{
+    display: flex;
+    max-height: 380px;
+}
+
+.correo{
+    font-size: 10px;
+}
+
+.container-image{
+    width: 50%;
+    height: 380px;
+    object-fit: cover;
+    padding: 0 10px 0 0;
+    border-radius: 10px;
+}
+
+.img-1{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* scale: 1; */
+}
+
+.container-datos-generales{
+    width: 50%;
+    height: auto-fill;
+    padding: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+.sobremi{
+    padding-bottom: 10px;
+    /* min-height: 33%; */
+}
+
+.contacto{
+    padding-bottom: 10px;
+    /* height: 33%; */
+}
+.formation{
+    /* margin-top: 33%; */
+    /* height: 33%; */
+}
+
+.container2{
+    display: flex;
+    justify-self: left;
+    align-items: left;
+    padding-bottom: 10px;
+    max-width: 800px;
+}
+
+.portafolio{
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+.idiomas{
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px 0 0 10px;
+    text-align: left;
+    justify-self: left;
+    width: 100% !important;
+}
+
+.skillsss{
+    padding-bottom: 10px;
+}
+
+h4{
+    padding: 20px 0 10px 0;
+}
+
+.prim{
+    margin-top: -15px;
+}
